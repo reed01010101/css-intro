@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 20px;
+}
+
+div > p {
+    border: 1px solid red;
+}
+
+h1,
+p {
+    border: 1px solid black;
+    color: red;
+    margin: 20px;
+    padding: 5px 4px 3px 2px;
+}
+
+/* Selector by class */
+.selected {
+    font-weight: bold;
+}
+
+#top {
+    transform: rotate(180deg);
+}
+
+p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p::first-letter {
+    color: green;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menu div {
+    margin: auto;
+}
+
+
